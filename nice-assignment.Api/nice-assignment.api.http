@@ -1,0 +1,6 @@
+@nice_assignment.api_HostAddress = http://localhost:5299
+
+GET {{nice_assignment.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

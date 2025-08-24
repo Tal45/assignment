@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nice-assignment.Api", "nice-assignment.Api\nice-assignment.Api.csproj", "{93034622-A127-4420-83F4-39DE8534DFCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nice-assignment.UnitTests", "nice-assignment.UnitTests\nice-assignment.UnitTests.csproj", "{76EEB462-6583-4FDC-A844-90A87E4EC3FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nice-assignment.IntegrationTests", "nice-assignment.IntegrationTests\nice-assignment.IntegrationTests.csproj", "{D5D23BC5-6907-483C-B788-3D95030710B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93034622-A127-4420-83F4-39DE8534DFCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93034622-A127-4420-83F4-39DE8534DFCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93034622-A127-4420-83F4-39DE8534DFCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93034622-A127-4420-83F4-39DE8534DFCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76EEB462-6583-4FDC-A844-90A87E4EC3FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76EEB462-6583-4FDC-A844-90A87E4EC3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76EEB462-6583-4FDC-A844-90A87E4EC3FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76EEB462-6583-4FDC-A844-90A87E4EC3FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5D23BC5-6907-483C-B788-3D95030710B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D23BC5-6907-483C-B788-3D95030710B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D23BC5-6907-483C-B788-3D95030710B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D23BC5-6907-483C-B788-3D95030710B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
