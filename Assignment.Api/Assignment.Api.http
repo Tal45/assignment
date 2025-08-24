@@ -1,0 +1,46 @@
+@host = http://localhost:5299
+
+### expecting ResetPassword
+POST {{host}}/suggestTask
+Content-Type: application/json
+
+{
+  "utterance": "reset password",
+  "userId": "12345",
+  "sessionId": "abcde-67890",
+  "timestamp": "2025-08-21T12:00:00Z"
+}
+
+
+### expecting NoTaskFound
+POST {{host}}/suggestTask
+Content-Type: application/json
+
+{
+  "utterance": "how do I change my username",
+  "userId": "12345",
+  "sessionId": "abcde-67890",
+  "timestamp": "2025-08-21T12:05:00Z"
+}
+
+### Validation failure — whitespace utterance
+POST {{host}}/suggestTask
+Content-Type: application/json
+
+{
+  "utterance": "   ",
+  "userId": "12345",
+  "sessionId": "abcde-67890",
+  "timestamp": "2025-08-21T12:10:00Z"
+}
+
+### expecting NoTaskFound
+POST {{host}}/suggestTask
+Content-Type: application/json 
+
+{
+  "utterance": "i need help resetting my password",
+  "userId": "12345",
+  "sessionId": "abcde-67890",
+  "timestamp": "2025-08-21T12:10:00Z"
+}

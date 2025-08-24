@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>net9.0</TargetFramework>
-        <RootNamespace>nice_assignment.IntegrationTest</RootNamespace>
+        <RootNamespace>nice_assignment.Tests</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <IsPackable>false</IsPackable>
@@ -20,7 +20,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\nice-assignment.Api\nice-assignment.Api.csproj" />
+      <ProjectReference Include="..\Assignment.Api\Assignment.Api.csproj" />
     </ItemGroup>
 
 </Project>
