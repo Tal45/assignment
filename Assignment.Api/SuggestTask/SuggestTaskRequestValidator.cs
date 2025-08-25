@@ -5,9 +5,6 @@ public sealed class SuggestTaskRequestValidator : AbstractValidator<SuggestTaskR
 {
     public SuggestTaskRequestValidator()
     {
-        RuleFor(req => req.Utterance)
-            .Cascade(CascadeMode.Stop) // stop at first failure
-            .NotNull().WithMessage("utterance required")
-            .NotEmpty().WithMessage("utterance must not be empty");
+        RuleFor(req => req.Utterance).NotEmpty().WithMessage("utterance required");
     }
 }
